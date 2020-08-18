@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import 'mixins';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/*---- ----- ----- -----    Estilos propios    ----- ----- ----- ----*/
+@import 'admin/layout.scss';
+@import 'admin/general.scss';
+@import 'ecommerce/layout.scss';
+@import 'ecommerce/contact.scss';
+@import 'ecommerce/index.scss';
+@import 'ecommerce/cart.scss';
+@import 'ecommerce/catalogue.scss';
+@import 'ecommerce/details.scss';
+@import 'ecommerce/products.scss';
+@import 'ecommerce/invoice.scss';

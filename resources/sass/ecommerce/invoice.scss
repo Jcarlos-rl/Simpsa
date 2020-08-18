@@ -1,0 +1,23 @@
+.billing{
+    h1{
+        font-family: $t-title;
+    }
+    .note{
+        color: $red;
+    }
+    button{
+        background-color: $green;
+        color: $white;
+        i{
+            margin-right: 10px;
+        }
+    }
+}
+.table-responsive{
+    p.total{
+        float: right !important;
+        span{
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.categories{
+    border: 1px solid $gray;
+    padding: 10px 10px;
+    p{
+        margin-bottom: 0;
+    }
+    ul{
+        padding-left: 0;
+        li{
+            &:hover{
+                background-color: rgba($green,0.1);
+            }
+            border: 1px solid $gray !important;
+            border-radius: 5px;
+            list-style: none;
+            margin-bottom: 5px;
+            //background-color: rgba($green,0.6);
+            a{
+                color: $grayBlack;
+            }
+        }
+        .selected{
+            background-color: $green;
+            a{
+                color: $white !important;
+            }
+        }
+    }
+}
+#categories{
+    display: none;
+}
+
+@media (min-width: 600px){
+    #categories{
+        display: block;
+    }
+}

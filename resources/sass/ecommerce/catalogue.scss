@@ -1,0 +1,44 @@
+.image-catalogue{
+    padding: 0 5%;
+    position: relative;
+    height: 150px;
+    border: 1px solid $gray;
+    background:linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url("/images/logo.png");
+    background-size: cover;
+    img{
+        position: absolute;
+        width: 90%;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.info-catalogue{
+    padding: 10px 15px;
+    border-left: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    border-right: 1px solid $gray;
+    display: flex;
+    justify-content: space-between;
+    i{
+        color: $green;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 600px){
+    .image-catalogue{
+        height: 250px;
+    }
+    .info-catalogue{
+        p{
+            font-size: 18px !important;
+        }
+        i{
+            font-size: 25px;
+        }
+    }
+}

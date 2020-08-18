@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #84BA65;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #BA5255;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$grayLight: #b2bec3;
+$gray: #e9eef6;
+$grayBlack: #2d3436;
+$green: #84BA65;
+$white: #FFF;
+$black: #000;
+$grisOscuro: #122131;
+$grisMedio: #e9eef6;
+$grisClaro : #f7f8fa;
+
+.btn-primary{
+    color: white !important;
+}
+
+$t-simpsa: 'Barlow Semi Condensed', sans-serif;
+$t-title: 'Oswald', sans-serif;
+
+a{
+    text-decoration: none !important;
+}
+
+.dropleft .dropdown-toggle::before{
+    display: none !important;
+}

@@ -1,0 +1,53 @@
+.title-product{
+    font-weight: bold;
+    font-size: 20px;
+    color: $grayBlack;
+}
+
+.product-detail{
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    p{
+        span{
+            //font-family: $t-title;
+            font-weight: bold;
+        }
+    }
+}
+
+.product-price{
+    border-bottom: 1px solid $gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        span{
+            font-weight: bold;
+        }
+        margin-bottom: 0;
+    }
+}
+.cantidad{
+    display: flex;
+    border-bottom: 1px solid $gray;
+    align-items: center;
+    p{
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    input{
+        margin-right: 20px;
+    }
+}
+.canales{
+    p{
+        margin-bottom: 0;
+    }
+    img{
+        margin-right: 15px;
+    }
+}
+
+.canales, .cantidad, .product-detail, .product-price{
+    padding: 25px 0;
+}

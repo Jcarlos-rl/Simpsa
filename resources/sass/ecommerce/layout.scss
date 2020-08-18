@@ -1,0 +1,111 @@
+.icons{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px $grayLight;
+    div{
+        @include center-vh;
+        p{
+            display: none;
+        }
+        i{
+            font-size: 20px;
+            color: $green;
+        }
+    }
+}
+
+.logo{
+    margin-top: 10px;
+    div{
+        @include center-vh;
+    }
+    img{
+        width: 100px;
+    }
+    h1{
+        font-family: $t-simpsa;
+    }
+    i{
+        color: $grayBlack;
+        font-size: 25px;
+    }
+    span{
+        position: absolute;
+        background-color: $green;
+        color: $white;
+        border-radius: 50%;
+        height: 1.3rem;
+        width: 1.3rem;
+        margin-left: 10px;
+        margin-top: -10px;
+        @include center-vh;
+    }
+}
+
+nav{
+    margin-top: 10px;
+}
+
+.alart-ecommerce{
+    position: fixed;
+    z-index: 100;
+    margin-right: 20px;
+    right: 0;
+    margin-top: 120px;
+    .close{
+        margin-left: 5px;
+    }
+}
+
+
+@media (min-width: 600px){
+    .icons{
+        div{
+            p{
+                display: block;
+                padding-top: 9px;
+                padding-left: 10px;
+                color: $grayBlack;
+            }
+        }
+    }
+    .logo{
+        img{
+            width: 150px;
+        }
+    }
+}
+
+
+
+footer{
+    background-color: #f8f9fa;
+    .col-12{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            display: flex;
+            align-items: center;
+            p{
+                //padding-top: 13px;
+                padding-left: 10px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+    p{
+        font-size: 15px;
+    }
+    .oneContainer{
+        height: 100px;
+        border-bottom: 1px solid $grayLight;
+    }
+    .twoContainer{
+        height: 60px;
+        @include center-vh
+    }
+    i{
+        color: $green;
+    }
+}

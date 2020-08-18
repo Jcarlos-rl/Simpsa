@@ -1,0 +1,87 @@
+.sales{
+    border: solid 1px $gray;
+    margin: 20px 0 20px 0;
+    padding: 20px 40px;
+    p{
+        margin-bottom: 0;
+    }
+    div{
+        a{
+            display: flex;
+            align-items: center;
+            color: $grayBlack;
+            text-decoration: none;
+        }
+        margin-bottom: 5px;
+    }
+    .ml{
+        img{
+            margin-right: 65px;
+        }
+    }
+    .ms{
+        img{
+            margin-right: 25px;
+        }
+    }
+    .am{
+        img{
+            margin-right: 45px;
+        }
+    }
+    .ml{
+        img{
+            width: 60px;
+        }
+    }
+    .ms{
+        padding-top: 15px;
+        img{
+            width: 100px;
+        }
+    }
+    .am{
+        padding-top: 7.5px;
+        img{
+            width: 80px;
+        }
+    }
+}
+.contact{
+    margin: 40px 0;
+    .form{
+        border: solid 1px $gray;
+        padding: 0 10px;
+        .message{
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            i{
+                color: $green;
+                font-size: 25px;
+            }
+        }
+        button{
+            background-color: $green;
+            color: $white;
+        }
+    }
+}
+
+@media (min-width: 600px){
+    .sales{
+        div{
+            margin-bottom: 0;
+        }
+        .ml, .ms, .am{
+            img{
+                margin-right: 15px;
+            }
+        }
+    }
+    .contact{
+        .form{
+            padding: 0 150px;
+        }
+    }
+}

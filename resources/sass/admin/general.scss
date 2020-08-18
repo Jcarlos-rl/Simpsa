@@ -1,0 +1,58 @@
+/*---- ----- ----- -----    General    ----- ----- ----- ----*/
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions-form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    a{
+        margin-right: 6px;
+    }
+}
+
+.content{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.col-search{
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+
+trix-editor{
+    height: auto !important;
+}
+
+.form-control-image{
+    border: none !important;
+}
+.label{
+    padding: 0 5px;
+}
+.label-active{
+    width: auto !important;
+    background-color: $green;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    p{
+        color: $white;
+        margin-bottom: 0;
+    }
+    span{
+        color: $white;
+    }
+}
+.check{
+    margin-bottom: 15px;
+}
+
+nav{
+    margin-top: 0 !important;
+}

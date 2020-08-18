@@ -1,0 +1,146 @@
+.direction{
+    margin-top: 10px;
+    p{
+        font-size: 13px;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+h1.text-center{
+    margin: 30px 0px 20px 0px;
+}
+.cart{
+    .description, .total{
+        border: solid 1px $gray;
+    }
+    .description, .total{
+        margin-bottom: 20px;
+    }
+    .cupon{
+        border-top: solid 1px $gray;
+        padding: 20px;
+    }
+    .total{
+        padding: 20px;
+        a, button{
+            margin-top: 20px;
+            background-color: $green;
+            color: $white;
+        }
+    }
+    .tbody-cart{
+        td{
+            img{
+                width: 40px;
+                @include center-vh;
+            }
+            p{
+                @include center-vh;
+                margin-bottom: 0;
+            }
+            button{
+                background-color: $green;
+                color: $white;
+            }
+            button:hover{
+                color: $white;
+            }
+            input{
+                width: 50px;
+                height: 38px;
+                border: solid 1px $gray;
+            }
+        }
+    }
+    .thead-cart{
+        th{
+            p{
+                @include center-vh;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        a{
+            border: solid 1px $gray;
+            i{
+                color: $green;
+            }
+        }
+    }
+    .message{
+        border: solid 1px $gray;
+        p{
+            i{
+                background-color: $green;
+                color: $white;
+                width: 50px;
+                height: 50px;
+                font-size: 20;
+                padding-top: 15px;
+                text-align: center;
+                margin-right: 20px;
+            }
+            margin-bottom: 0;
+        }
+        margin-bottom: 50px;
+    }
+}
+.table-cart .thead-cart th, .table-cart th, .table-cart td{
+    border: none;
+}
+
+.thead-cart{
+    border-bottom: 1px solid $gray;
+}
+
+@media (min-width: 600px){
+    .cart{
+        .cupon{
+            .input-group{
+                width: 60% !important;
+            }
+        }
+    }
+}
+
+//------------------- Shipping
+
+.total{
+    p{
+        margin-bottom: 2px;
+    }
+    p.title{
+        margin-bottom: 8px;
+    }
+}
+
+//------------------- Checkout
+
+.cart{
+    .custom-control{
+        label{
+            i{
+                color: $green;
+            }
+        }
+    }
+}
+
+.type-payment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body{
+    .btn{
+        margin-bottom: 20px;
+    }
+    p{
+        color: $grayBlack;
+    }
+}

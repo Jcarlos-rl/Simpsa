@@ -1,0 +1,55 @@
+.navbar-brand{
+    font-family: $t-simpsa !important;
+}
+
+.content-main{
+    margin-top: 55px;
+}
+
+/*---- ----- ----- -----    Sidemenu    ----- ----- ----- ----*/
+.sidemenu{
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    .options{
+        padding: 15px 8px;
+    }
+    .option{
+        &:hover{
+            background-color: rgba($green,0.1);
+        }
+        border-radius: 3px;
+        padding: 5px 8px;
+        display: flex;
+        justify-content: initial;
+        align-items: center;
+        font-size: 0.9rem;
+        p{
+            margin-bottom: 0px;
+        }
+        i{
+            margin-right: 15px;
+        }
+        p, i{
+            color: $grayBlack;
+        }
+    }
+    .suboptions{
+        display: none;
+        padding: 5px 0px 5px 30px;
+    }
+}
+
+.selected{
+    background-color: rgba($green,0.6);
+}
+
+.visible{
+    display: block !important;
+}
+
+.content-body{
+    margin-left: 220px;
+    padding: 35px;
+}
